@@ -14,7 +14,7 @@ export default function Navibar(req, res) {
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#software">Software</Nav.Link>
           <Nav.Link href="#music">Music</Nav.Link>
-          <Nav.Link href="#photography">Photography</Nav.Link>
+          <Nav.Link href="./">Photography</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
