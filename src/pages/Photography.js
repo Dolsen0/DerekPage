@@ -7,13 +7,16 @@ const bergenImg = <img src = {bergen} />
 const birdsFlamImg = <img src = {birdsFlam} />
 
 const images = [flamImg, bergenImg, birdsFlamImg]
+const imageList = images.map((image, index)=>
+    <li key={index}>{image}</li>
+);
 
 
 
 export default function Photography(){
     return(
         <>
-        {images}
+        <ul>{imageList}</ul>
         </>
     )
 }

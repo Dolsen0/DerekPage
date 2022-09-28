@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <>
       <Navibar/>
-      <h4>Page coming soon</h4>
+      <h4>Page coming soon...</h4>
       <Photography/>
       
       </>
