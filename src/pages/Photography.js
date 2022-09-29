@@ -1,10 +1,11 @@
 import flamImage from '../images/flam.JPG'
 import bergen from '../images/bergen.JPG'
 import birdsFlam from '../images/birdsFlam.JPG'
+import { Image } from 'react-bootstrap'
 
-const flamImg = <img src = {flamImage} />
-const bergenImg = <img src = {bergen} />
-const birdsFlamImg = <img src = {birdsFlam} />
+const flamImg = <Image src = {flamImage} thumbnail true />
+const bergenImg = <Image src = {bergen} thumbnail true />
+const birdsFlamImg = <Image src = {birdsFlam} thumbnail true />
 
 const images = [flamImg, bergenImg, birdsFlamImg]
 const imageList = images.map((image, index)=>
