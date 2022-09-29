@@ -7,8 +7,12 @@ function App() {
     <div className="App">
       <>
       <Navibar/>
-      <h4>Page coming soon...</h4>
+      <h4>Page coming soon..</h4>
+      <h5 className='software'>Software</h5>
+      <h5 className='music'>Music</h5>
+      <div className='photography'>  
       <Photography/>
+      </div>
       
       </>
     </div>
