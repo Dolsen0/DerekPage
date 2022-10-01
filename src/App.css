@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 10px;
+  padding: 10px;
 }
 /* 
 .App-logo {
@@ -46,4 +48,6 @@ li{
   display: flex;
   justify-self: center;
   width: 40%;
+  padding: 10px;
+  margin: 10px;
 }
