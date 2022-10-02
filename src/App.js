@@ -7,7 +7,7 @@ import Derek from './images/Derek.jpg'
 
 function App() {
 
-  const derekImage = <Image src = {Derek}/>
+  const derekImage = <Image src = {Derek} thumbnail true/>
 
   return (
     <div className="App">

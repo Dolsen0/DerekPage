@@ -7,7 +7,7 @@ export default function Navibar(req, res) {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
       <Container>
-        <NavbarBrand>Derek Olsen</NavbarBrand>
+        <NavbarBrand id="navBrand">Derek Olsen</NavbarBrand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navebar-nav"/>
         <Nav >
