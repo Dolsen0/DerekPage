@@ -1,8 +1,14 @@
 import './App.css';
 import Navibar from './components/Navbar.jsx'
 import Photography from './pages/Photography';
+import { Image } from 'react-bootstrap';
+import Derek from './images/Derek.jpg'
+
 
 function App() {
+
+  const derekImage = <Image src = {Derek}/>
+
   return (
     <div className="App">
       <>
