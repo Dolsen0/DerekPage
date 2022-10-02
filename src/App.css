@@ -1,7 +1,13 @@
+html{
+  background-color: antiquewhite;
+}
+
 .App {
+  background-color: antiquewhite;
   text-align: center;
   margin: 10px;
   padding: 10px;
+
 }
 
 #navBrand{
