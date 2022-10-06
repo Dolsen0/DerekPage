@@ -14,7 +14,10 @@ function App() {
       <>
       <Navibar/>
       <h4>Page coming soon..</h4>
+      <div id='derekImage'>{derekImage}</div>
       <h5 className='software'>Software</h5>
+      <div>Skills: html, css, js, python</div>
+      <div>Resume:</div>
       <h5 className='music'>Music</h5>
       <div className='photography'>  
       <Photography/>
